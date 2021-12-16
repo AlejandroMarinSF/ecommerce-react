@@ -15,6 +15,7 @@ import CheckoutPage from './pages/checkout/checkout.component';
 
 
 
+
 class App extends React.Component {
   
 
@@ -35,7 +36,7 @@ class App extends React.Component {
           });
       }
 
-      setCurrentUser(userAuth)
+      setCurrentUser(userAuth);
       
     })
   }
